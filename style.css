@@ -1,0 +1,326 @@
+body{
+    background-color: peachpuff;
+}
+h1{
+    color:red;
+    width:auto;
+    font-family:'Courier New', Courier, monospace;   /*family fonts   ...google fonts*/
+}
+span{
+    font-weight:bolder;
+}
+.zolo
+{
+    background-image: url(file:///C:/Users/admin/Downloads/shutterstock_728342668.jpg);
+    /*opacity:20%;*/   
+    background-repeat: no-repeat; 
+    background-position:center;
+    width:auto;
+    text-align:start;
+    margin:20px;
+    border-style:solid;
+}   
+.company{
+    color:black;
+}
+.zolo h1{
+    color:black;
+}
+
+.zolo button{
+    background-color: blue;
+    border-style: dashed;
+    border-radius: 15px;
+    margin:10px 10px 5px 10px;
+    /*top,right,bottom,left*/
+    
+}
+
+.card h2{
+    font-weight: bold;
+}
+.card {
+    color:black;
+    margin:50px;
+    padding:30px;
+    width:auto;
+    /*height:px;*/
+    background-color: blue;
+    border: 1px solid;
+    border-style: dashed;
+    outline-style: solid;
+    outline: 5px solid red;
+}
+
+.sad {
+    background-color: black;
+    color:bisque;
+    width:auto;
+    margin: 50px;
+    border-style:solid blue;
+    border-width:5px;
+    outline: 5px solid red;
+    /*text-shadow: 1px  1px whitesmoke;*/
+    text-align:center;
+    text-decoration:none;
+    text-transform: lowercase;
+    text-anchor: start;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    /* line-height:10px;
+    direction: rtl;
+     word-spacing: 10px;*/
+}
+.solo h1{
+    color:black;
+    text-align: center;
+}
+.solo a{
+     color:rgb(22, 228, 22); 
+}
+
+.solo a:link{
+    color:blue; 
+}
+.solo a:visited{
+    color:rgb(223, 23, 189); 
+}
+.solo a:hover{
+    color:red;
+    font-size:5px; 
+}
+.solo a:active{
+    color:violet; 
+}
+/*US BRANDCOLORS .COM  original logo colours.com */
+.facebook{
+    padding:10px;
+    color:azure;
+    border:none;
+    border-radius: 8px;
+    background-color: blue;
+} 
+
+.solo{
+    list-style-type: disc;
+    list-style-position: inside;
+    background-color:aqua;
+    margin: 10px;
+}
+
+ .solo ol li{
+    background-color: black;
+    color:beige;
+    margin-left: 10px;
+    width:auto;
+ }
+ table{
+    background-color: blue;
+    width:auto;
+    text-align: center;
+    /*border-collapse: collapse;*/
+    border:1px solid;
+ }
+  
+ th{
+    font-size: 20px;
+    padding: 30px;
+    width:100px;
+    background-color: black;
+    color: beige;
+ }
+
+ td{
+    padding:5px;
+ }
+
+ tr:hover{
+    background-color: aqua;
+ }
+ tr:nth-child(odd){
+    background-color: brown;
+ }
+
+ ol{
+   list-style-type:none;    
+ }
+
+ .display{
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color: black;
+    overflow-x: auto;
+    border-radius:10px;
+    border:20px;
+    border-style:solid;
+    border-color: aqua;
+}
+ol li a{
+    color:green;
+}
+li{
+    display:inline;
+    margin-left: 50px;
+}
+.hidden{
+    /*visibility: hidden;*/
+}
+
+.position{
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color:white;
+    overflow-x: auto;
+    border-radius:10px;
+    border:20px;
+    border-style:solid;
+    border-color: yellow;
+}
+.static{
+    position:static;
+    border:3px solid black;
+}
+.relative{
+    position:relative;
+    margin-top: 20px;
+    border:3px solid black;
+    left: 20px;;
+}
+
+.fixed{
+    position:fixed;
+    margin-top: 20px;
+    text-align:center;
+    bottom: 0;
+    left:0;
+    background-color:black;
+    COLOR:white;
+    width:100%;
+    border:3px solid blue;
+}
+.sticky{
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: black;
+    border:3px solid blue;
+    padding:20px;    
+}
+
+.float{
+    margin:25px;
+    border:3px solid black;
+    background-color:yellow;
+    text-align:center;
+    padding:20px;
+    width:250;  
+    height:400px;
+}
+/*pseudo elemets::*/
+::-moz-selection{
+    background-color:yellow;
+}
+
+.sample{
+    background-color:skyblue;
+    padding:30px;
+    width:auto;
+    height:200px;
+}
+
+.sample img{
+    float:left;
+    padding:10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.navbar{
+    text-align: center;
+    background-color: green;
+    padding:10px;
+}
+
+.menu{
+    text-align: center;
+    background-color:blueviolet;
+    float:left;
+    height:200px;
+    width:33.33%;
+}
+.content{
+    text-align: center;
+    background-color: skyblue;
+    float:left;
+    height:200px;
+    width:33.33%;
+}
+.slidebar{
+    text-align: center;
+    background-color:orangered;
+    float:left;
+    height:200px;
+    width:33.33%;
+}
+.footer{
+    text-align: center;
+    clear:both;
+    background-color:red;
+    padding:10px;
+}
+
+.opacity h1{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow;
+    font-style: italic;
+    width:250px;
+}
+
+.forms{
+    padding:20px 20px;
+    background-color: burlywood;
+}
+input[type="text"]{
+    width:100%;
+    padding:12px 20px;
+    margin:15px;
+    border-radius: 1px;
+}
+
+button[type="submit"]{
+    width: 100%;
+    background-color:green;
+    padding:10px 16px;
+    cursor:pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: cadetblue;
+}
+
+
+
+/*.opacity img{
+    opacity:0.9%;
+}*/
+
+/*.sample p{
+    clear: both;
+}*/
+
+
+/*h1{
+    background-color: black;
+    color:red;
+    text-align: center;/
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow:10px;
+    margin: 10%;
+    min-height: fit-content;
+    padding:100px;
+    width:200px;
+}*/
